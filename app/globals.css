@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    @apply overflow-x-hidden max-w-full;
+  }
+}
+
+@layer utilities {
+  .text-stroke-1 {
+    -webkit-text-stroke: 1px currentColor;
+  }
+}
